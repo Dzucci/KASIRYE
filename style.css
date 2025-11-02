@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    line-height: 1.5;
+    text-align: center;
+}
+.may, .maya{
+    font-size: 90px;
+    color: red;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-bottom: 2px;
+}
+.may{
+    margin-top: 5px;
+}
+.banner p{
+    color: yellow;
+    font-size: 35px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-bottom: 4px;
+}
+.text h2{
+    color: rgb(241, 243, 241);
+    font-size: 25px;
+    padding-bottom: 5px;
+
+}
+button{
+    width: auto;
+    background: green;
+    color: white;
+	padding: 8px 4%;
+    border-radius: 9px;
+    margin-bottom: 28px;
+    cursor: pointer;
+}
+footer{
+    background-color:yellow;
+}
+.last{
+    font-size: 20px;
+    display: flex;
+justify-content: space-evenly;
+background-color:grey;
+}
+.go{
+    background-color: yellow;
+    font-size: 20px;
+    margin-bottom: 14px;
+
+}
+.big, .bigger{
+    display: flex;
+    background-color: yellow;
+    justify-content:space-evenly;
+    font-size: 20px;
+}
+input{
+	display: block;
+    border-radius: 4px;
+	width: 50%;
+    margin-left: 320px;
+	padding: 8px;
+	margin-bottom: 6px;
+	text-align: left;
+	border: black 2px solid;
+}
+.sect h2{
+margin-top: 2px;
+}
+.spread{
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 20px;
+
+}
+.one{font-size: 50px;
+font-style:normal;}
+.two{font-size:25px;
+font-style: italic;}
+.three{font-size: 17;}
+
+.nivana{
+    text-align: center;
+}
+.bag{font-size: 50px;
+font-style:oblique;}
+.nivana h2, h1, .pack{
+    font-size: 30px;
+    color: red;
+}
+.bottle, .kettle{
+    font-size: 20px;
+    font-synthesis: weight;
+}
+
+.large{
+    line-height: 1.5;
+    text-align: center;
+}
+
+.add{
+display: flex;
+width: 50px;
+height: 40vh;
+margin-left: 200px;
+}
+.conc{
+    background-color: aqua;
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.biggest{
+    background-color: yellow;
+    font-size: 20px;
+}
+form{
+    font-weight: bolder;
+    font-size: x-large;
+}
+@media only screen and /*incase a user has an old version of browser*/ (max-width: 600px) and (orientation: portrait) {
+   .card one{
+    width: 100%;
+   }
+}
+@media only screen and (min-width: 601px) and (orientation: landscape) {
+   .card two{
+    width: 100%;
+   }
+}
+@media only screen and (min-width: 768px) {
+   .card three{
+    width: 100%;
+
+   }
+}
+@media only screen and (min-width: 1200px) {
+   .card four{
+    width: 100%;
+
+   }
+}
+
+
+
+
+
+
